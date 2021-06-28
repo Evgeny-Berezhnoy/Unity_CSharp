@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ed188eb9a9c21e4a928bb55a6a3f94a, type: 3}
+  m_Name: New Narrative
+  m_EditorClassIdentifier: 
+  EntryNodeGUID: 826a0631-9243-4372-9558-bf62691d2846
+  NodesLinks:
+  - BaseNodeGUID: 826a0631-9243-4372-9558-bf62691d2846
+    BaseNodePortIndex: 0
+    TargetNodeGUID: 75303e46-9775-419d-930c-e9c7d20f98ff
+  - BaseNodeGUID: 75303e46-9775-419d-930c-e9c7d20f98ff
+    BaseNodePortIndex: 0
+    TargetNodeGUID: 3d10e4de-f381-44cd-8060-4f77789b879c
+  - BaseNodeGUID: 75303e46-9775-419d-930c-e9c7d20f98ff
+    BaseNodePortIndex: 4
+    TargetNodeGUID: 3d10e4de-f381-44cd-8060-4f77789b879c
+  - BaseNodeGUID: 75303e46-9775-419d-930c-e9c7d20f98ff
+    BaseNodePortIndex: 1
+    TargetNodeGUID: ba74642d-c847-4143-9179-59c66869e273
+  - BaseNodeGUID: 75303e46-9775-419d-930c-e9c7d20f98ff
+    BaseNodePortIndex: 2
+    TargetNodeGUID: ba74642d-c847-4143-9179-59c66869e273
+  NodesData:
+  - GUID: ba74642d-c847-4143-9179-59c66869e273
+    DialogueText: Dialogue Graph
+    OutputPorts:
+    - PortName: How are you doing?
+      PortIndex: 0
+    - PortName: Where is my money?
+      PortIndex: 1
+    - PortName: Where have you been?
+      PortIndex: 2
+    Position:
+      serializedVersion: 2
+      x: 602
+      y: 377
+      width: 303
+      height: 145
+  - GUID: 75303e46-9775-419d-930c-e9c7d20f98ff
+    DialogueText: Way hay and up she rises.
+    OutputPorts:
+    - PortName: Hey there!
+      PortIndex: 0
+    - PortName: What's up?
+      PortIndex: 1
+    - PortName: Howdy!
+      PortIndex: 2
+    - PortName: Hello!
+      PortIndex: 3
+    - PortName: Hey you!
+      PortIndex: 4
+    Position:
+      serializedVersion: 2
+      x: 278
+      y: 17
+      width: 296
+      height: 193
+  - GUID: 3d10e4de-f381-44cd-8060-4f77789b879c
+    DialogueText: Dialogue Graph
+    OutputPorts: []
+    Position:
+      serializedVersion: 2
+      x: 1003
+      y: 105
+      width: 230
+      height: 96
+  ExposedProperies:
+  - PropertyName: Character
+    PropertyValue: Alma
+  - PropertyName: Scenario
+    PropertyValue: 3
